@@ -43,6 +43,9 @@
     "tsconfig-paths": "^4.0.0",
     "typescript": "^4.7.4"
   },
+  "simple-git-hooks": {
+    "commit-msg": "npx ts-node scripts/git/verify-commit.ts $1"
+  },
   "jest": {
     "moduleFileExtensions": [
       "js",
